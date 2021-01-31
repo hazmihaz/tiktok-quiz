@@ -6,6 +6,7 @@
                 :src="src"
                 :playing="videoIsPlaying"
                 @ready="onVideoReady"
+                @no-autoplay="onVideoNoAutoplay"
             />
         </div>
 
@@ -96,6 +97,10 @@ export default {
 
         onVideoReady() {
             if (this.active) this.videoIsPlaying = true
+        },
+
+        onVideoNoAutoplay() {
+            this.videoIsPlaying = false
         },
 
         done() {

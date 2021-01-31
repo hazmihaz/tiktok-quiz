@@ -64,8 +64,18 @@ export default {
             })
         },
 
-        play() {
-            this.video.play()
+        async play() {
+            let promise = this.video.play()
+            if (promise !== undefined) {
+                promise
+                    .then(() => {
+                        console.log('autplay started')
+                    })
+                    .catch((err) => {
+                        console.log('autoplay prevented')
+                        this.$emit('no-autoplay')
+                    })
+            }
         },
 
         pause() {
