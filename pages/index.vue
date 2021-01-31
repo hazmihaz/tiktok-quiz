@@ -17,6 +17,8 @@ export default {
 <style scoped lang="postcss">
 .main {
     height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+    min-height: 500px;
     grid-column-start: 2;
     grid-row-start: 2;
     overflow: hidden;
