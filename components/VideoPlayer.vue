@@ -1,6 +1,6 @@
 <template>
     <div class="w-full h-full">
-        <video ref="video" loop class="w-full h-full object-cover">
+        <video ref="video" loop playsinline class="w-full h-full object-cover">
             <source :src="src" type="video/mp4" />
         </video>
         <div
