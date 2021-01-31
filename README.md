@@ -1,8 +1,8 @@
 # tiktok-quiz
 
-Tiktok-style timeline idea for language learning
+Tiktok-style timeline and quiz idea for language learning
 
-![Image of App](https://files.maxacreative.com/maxa/ringo.jpg)
+![Image of App](https://files.maxacreative.com/maxa/neko%20inu.jpg)
 
 ## Build Setup
 
