@@ -1,7 +1,7 @@
 {
     "name": "tiktok-quiz",
     "description": "Frontend exploration: tiktok-style video timeline for language learning",
-    "version": "1.0.0",
+    "version": "0.1.1",
     "private": true,
     "scripts": {
         "dev": "nuxt",
